@@ -1,4 +1,4 @@
-# Ollama Setup Guide
+# Ollama & Model Setup Guide
 
 ## Introduction
 Ollama is a powerful tool for running large language models locally, enabling fast inference and offline usage. This guide walks you through installing Ollama, setting up the `deepseek-coder:6.7b` model, and optimizing performance for the best experience.
