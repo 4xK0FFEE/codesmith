@@ -3,7 +3,7 @@
 ## Individual Repositories
 - **Frontend**: [CodeSmith Frontend](https://github.com/4xK0FFEE/codesmith-frontend)
 - **Backend**: [CodeSmith Backend](https://github.com/4xK0FFEE/codesmith-backend)
-- **LLM**: [CodeSmith LLM](https://github.com/4xK0FFEE/codesmith-llm)
+- **LLM Models**: [CodeSmith LLM](https://github.com/4xK0FFEE/codesmith-llm)
 
 ## Overview
 CodeSmith is an intelligent project template generator designed to streamline development workflows by leveraging AI-powered recommendations and automated project setup. At its core, CodeSmith integrates **Ollama** with `deepseek-coder:6.7b` to provide intelligent code generation, suggesting optimal tech stacks, structuring project files, and reducing the manual effort required in setting up a development environment.
