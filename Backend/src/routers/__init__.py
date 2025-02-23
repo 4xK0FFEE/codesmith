@@ -6,7 +6,7 @@ from src.routers.generator import router as GeneratorRouter
 from src.config import Config as config
 import pymongo
 
-router = APIRouter(prefix = "/api", tags=["Base Router"])
+router = APIRouter(prefix = "/api")
 
 @router.get("/healthcheck", tags = ["Base Router"])
 async def health_check() -> JSONResponse:
@@ -18,7 +18,6 @@ async def health_check() -> JSONResponse:
     except pymongo.errors.WTimeoutError:
         return JSONResponse({"status":"error","database":"operation timed out"})
     
-
 router.include_router(TemplateRouter)
 router.include_router(FileShareRouter)
 router.include_router(GeneratorRouter)
